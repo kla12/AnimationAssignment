@@ -56,15 +56,6 @@ Background.prototype.draw = function () {
 Background.prototype.update = function () {
 };
 
-function MushroomDude(game, spritesheet) {
-    this.animation = new Animation(spritesheet, 189, 230, 5, 0.10, 14, true, 1);
-    this.x = 0;
-    this.y = 0;
-    this.speed = 100;
-    this.game = game;
-    this.ctx = game.ctx;
-}
-
 //Animation(spriteSheet, frameWidth, frameHeight, sheetWidth, frameDuration, frames, loop, scale)
 function Carson(game, spritesheet) {
     this.animation = new Animation(spritesheet, 49, 48.2, 3, .1, 3, true, 4);
