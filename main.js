@@ -83,7 +83,7 @@ Carson.prototype.update = function () {
 		this.animation = new Animation(AM.getAsset("./img/carsonright.png"), 49, 48.2, 3, .1, 3, true, size);
 		dir = 0;
 	}
-    	if (this.x > 1300) {
+    	if (this.x > 1800) {
 		//this.spritesheet = AM.getAsset("./img/carsonleft.png");
 		this.animation = new Animation(AM.getAsset("./img/carsonleft.png"), 49, 48.2, 3, .1, 3, true, size);
 		dir = 1;
