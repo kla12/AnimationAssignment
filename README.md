@@ -1,2 +1,0 @@
-# AnimationAssignment
-Katie Alexander
